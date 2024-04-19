@@ -18,4 +18,16 @@ use Illuminate\Support\Facades\Route;
 });*/
 
 Auth::routes();
-Route::get('/', 'HomeController@index')->name('home');
+Route::get('/', 'InicioController@index')->name('inicio');
+
+// Backend
+Route::get('/home', 'HomeController@index')->name('home');
+Route::post('/formulario-contacto-propiedades', 'InicioController@contactoController')->name('formulario-contacto');
+Route::prefix('users')->group(function () {
+    Route::get('/', 'UserController@index')->name('users');
+    Route::get('/create', 'UserController@create');
+    Route::post('/store', 'UserController@store');
+    Route::get('/edit/{user}', 'UserController@edit');
+    Route::post('/update/{user}', 'UserController@update');
+    Route::post('/destroy', 'UserController@destroy');
+});
