@@ -17,7 +17,7 @@
                     <div class="col-lg-6 col-md-6 col-sm-12">
                         <div class="user-thumb text-center">                        
                             @if($usuario->avatarImg)
-                                <img src="/img/usuarios/{{ $usuario->avatarImg}}" class="rounded-circle img-thumbnail avatar-md" alt="thumbnail">
+                                <img src="/backend/img/usuarios/{{ $usuario->avatarImg}}" class="rounded-circle img-thumbnail avatar-md" alt="thumbnail">
                             @endif
                             <h5 class="font-size-15 mt-3">{{ $usuario->name }} {{ $usuario->apellido }} </h5>
                         </div>

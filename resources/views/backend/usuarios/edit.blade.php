@@ -33,7 +33,7 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-sm-6">
-                        <script>document.write(new Date().getFullYear())</script> © Propitech.
+                        <script>document.write(new Date().getFullYear())</script> © Personalizado.
                     </div>
                     <div class="col-sm-6">
                     </div>

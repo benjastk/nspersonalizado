@@ -19,58 +19,58 @@
                 <div class="row">
                     <div class="col-xl-12">
                         <div class="row">
-                            <div class="col-md-3">
+                            <div class="col-md-4">
                                 <div class="card mini-stats-wid">
                                     <div class="card-body" style="height: 120px;">
                                         <div class="media">
                                             <div class="media-body">
-                                                <p class="text-muted font-weight-medium">Numeros 1</p>
-                                                <h4 class="mb-0">1</h4>
+                                                <p class="text-muted font-weight-medium">Rutinas</p>
+                                                <h4 class="mb-0">{{ $rutinas }}</h4>
                                             </div>
                                             <div class="avatar-sm rounded-circle bg-primary align-self-center mini-stat-icon">
                                                 <span class="avatar-title rounded-circle bg-primary">
-                                                    <i class="bx bx-home-alt font-size-24"></i>
+                                                    <i class="fa fa-running"></i>
                                                 </span>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-3">
+                            <div class="col-md-4">
                                 <div class="card mini-stats-wid">
                                     <div class="card-body" style="height: 120px;" >
                                         <div class="media">
                                             <div class="media-body">
-                                                <p class="text-muted font-weight-medium">Numeros 2</p>
-                                                <h4 class="mb-0">2</h4>
+                                                <p class="text-muted font-weight-medium">Ejercicios</p>
+                                                <h4 class="mb-0">{{ $ejercicios }}</h4>
                                             </div>
                                             <div class="avatar-sm rounded-circle bg-primary align-self-center mini-stat-icon">
                                                 <span class="avatar-title rounded-circle bg-warning">
-                                                    <i class="bx bxs-home font-size-24"></i>
+                                                    <i class="bx bx-dumbbell"></i>
                                                 </span>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-3">
+                            <div class="col-md-4">
                                 <div class="card mini-stats-wid">
                                     <div class="card-body" style="height: 120px;">
                                         <div class="media">
                                             <div class="media-body">
-                                                <p class="text-muted font-weight-medium">Numeros 3</p>
-                                                <h4 class="mb-0">3</h4>
+                                                <p class="text-muted font-weight-medium">Interacciones Web</p>
+                                                <h4 class="mb-0">{{ $leads}}</h4>
                                             </div>
                                             <div class="mini-stat-icon avatar-sm rounded-circle bg-primary align-self-center">
                                                 <span class="avatar-title">
-                                                    <i class="bx bxs-file font-size-24"></i>
+                                                    <i class="bx bx-voicemail"></i>
                                                 </span>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-3">
+                            <!--<div class="col-md-3">
                                 <div class="card mini-stats-wid">
                                     <div class="card-body" style="height: 120px;">
                                         <div class="media">
@@ -86,7 +86,7 @@
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </div>-->
                         </div>
                     </div>
                 </div>

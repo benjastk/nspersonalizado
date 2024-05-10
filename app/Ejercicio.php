@@ -16,6 +16,7 @@ class Ejercicio extends Model
         'activacionMuscular',
         'imagen',
         'video',
+        'activado',
         'created_at',
         'updated_at'
     ];

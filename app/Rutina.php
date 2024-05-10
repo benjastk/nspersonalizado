@@ -6,7 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Rutina extends Model
 {
-    protected $table = 'ejercicios_rutinas';
+    protected $table = 'rutinas_alumnos';
     protected $primaryKey = 'id';
     protected $fillable = [
         'nombreRutina',
@@ -14,6 +14,7 @@ class Rutina extends Model
         'fechaFin',
         'idUsuario',
         'idUsuarioCreador',
+        'activado',
         'created_at',
         'updated_at',
     ];
