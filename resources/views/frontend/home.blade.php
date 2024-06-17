@@ -17,7 +17,20 @@
                     </div>
                 </div>
             </div>-->
-            <div class="hs-item set-bg" data-setbg="img/hero/hero-2.jpg">
+            <div class="hs-item set-bg" data-setbg="img/gym3.jpeg">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6 offset-lg-6">
+                            <div class="hi-text">
+                                <span>Elige tu camino hacia la transformación</span>
+                                <h1>Inicia hoy tu <strong>transformación </strong></h1>
+                                <a href="#contact-section" class="primary-btn">¡Comienza ahora!</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="hs-item set-bg" data-setbg="img/gym1.jpeg">
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-6 offset-lg-6">
@@ -94,7 +107,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="class-item">
                         <div class="ci-pic">
-                            <img src="img/classes/class-1.jpg" alt="">
+                            <img src="img/obten-masa-muscular.jpeg" alt="">
                         </div>
                         <div class="ci-text">
                             <span>Musculación</span>
@@ -106,7 +119,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="class-item">
                         <div class="ci-pic">
-                            <img src="img/classes/class-2.jpg" alt="">
+                            <img src="img/pierde-grasa.jpeg" alt="">
                         </div>
                         <div class="ci-text">
                             <span>Cardio Hiit</span>
@@ -118,7 +131,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="class-item">
                         <div class="ci-pic">
-                            <img src="img/classes/class-3.jpg" alt="">
+                            <img src="img/tonifica-abdominal.jpeg" alt="">
                         </div>
                         <div class="ci-text">
                             <span>Abdominales</span>
@@ -130,7 +143,7 @@
                 <div class="col-lg-6 col-md-6">
                     <div class="class-item">
                         <div class="ci-pic">
-                            <img src="img/classes/class-4.jpg" alt="">
+                            <img src="img/deporte-favorito.jpeg" alt="">
                         </div>
                         <div class="ci-text">
                             <span>Entrenamiento para deportistas</span>
@@ -142,7 +155,7 @@
                 <div class="col-lg-6">
                     <div class="class-item">
                         <div class="ci-pic">
-                            <img src="img/classes/class-5.jpg" alt="">
+                            <img src="img/peso-corporal-1.jpeg" alt="">
                         </div>
                         <div class="ci-text">
                             <span>Entrena en casa o donde quieras</span>
@@ -157,7 +170,7 @@
     <!-- ChoseUs Section End -->
 
     <!-- Banner Section Begin -->
-    <section class="banner-section set-bg" data-setbg="img/banner-bg.jpg" id="contact-section">
+    <section class="banner-section set-bg" data-setbg="img/breadcrumb-bg.jpg" id="contact-section">
         <div class="container" style="background-color: rgba(0, 0, 0, 0.5);padding: 51px;">
             <div class="row">
                 <!--<div class="contact-section spad" id="contact-section" style="width: 100%">-->
@@ -306,7 +319,7 @@
     <!-- Gallery Section End -->
 
     <!-- Team Section Begin -->
-    <div class="gallery-section">
+    <!--<div class="gallery-section">
         <div class="gallery">
             <div class="grid-sizer"></div>
             <div class="gs-item grid-wide set-bg" data-setbg="img/gallery/gallery-1.jpg">
@@ -328,9 +341,85 @@
                 <a href="img/gallery/gallery-6.jpg" class="thumb-icon image-popup"><i class="fa fa-picture-o"></i></a>
             </div>
         </div>
-    </div>
+    </div>-->
     <!-- Team Section End -->
-
+    <!-- Team Section Begin -->
+    <section class="team-section spad" style="background: #000000 !important;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="team-title">
+                        <div class="section-title">
+                            <span>Experiencias</span>
+                            <h2>ENTRENA CON UN EXPERTO</h2>
+                        </div>
+                        <!--<a href="#" class="primary-btn btn-normal appoinment-btn">appointment</a>-->
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="ts-slider owl-carousel">
+                    <div class="col-lg-4">
+                        <div class="ts-item set-bg" data-setbg="img/11.jpeg">
+                            <!--<div class="ts_text">
+                                <h4>Athart Rachel</h4>
+                                <span>Gym Trainer</span>
+                            </div>-->
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="ts-item set-bg" data-setbg="img/13.jpeg">
+                            <!--<div class="ts_text">
+                                <h4>Athart Rachel</h4>
+                                <span>Gym Trainer</span>
+                            </div>-->
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="ts-item set-bg" data-setbg="img/14.jpeg">
+                            <!--<div class="ts_text">
+                                <h4>Athart Rachel</h4>
+                                <span>Gym Trainer</span>
+                            </div>-->
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="ts-item set-bg" data-setbg="img/115.jpeg">
+                            <!--<div class="ts_text">
+                                <h4>Athart Rachel</h4>
+                                <span>Gym Trainer</span>
+                            </div>-->
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="ts-item set-bg" data-setbg="img/116.jpeg">
+                            <!--<div class="ts_text">
+                                <h4>Athart Rachel</h4>
+                                <span>Gym Trainer</span>
+                            </div>-->
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="ts-item set-bg" data-setbg="img/117.jpeg">
+                            <!--<div class="ts_text">
+                                <h4>Athart Rachel</h4>
+                                <span>Gym Trainer</span>
+                            </div>-->
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="ts-item set-bg" data-setbg="img/118.jpeg">
+                            <!--<div class="ts_text">
+                                <h4>Athart Rachel</h4>
+                                <span>Gym Trainer</span>
+                            </div>-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Team Section End -->
     <!-- Get In Touch Section Begin -->
     <div class="gettouch-section">
         <div class="container">

@@ -39,4 +39,9 @@ class HomeController extends Controller
         $leads = FormularioContacto::get(); 
         return view('backend.leads', compact('user','leads'));
     }
+    public function inicio()
+    {
+        $user = Auth::user();
+        return view('backend.alumnos.home', compact('user'));
+    }
 }

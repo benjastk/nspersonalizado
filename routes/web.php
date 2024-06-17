@@ -21,10 +21,11 @@ Auth::routes();
 Route::get('/', 'InicioController@index')->name('inicio');
 
 // Backend
-Route::get('/home', 'HomeController@index')->name('home');
+Route::middleware('role')->get('/home', 'HomeController@index')->name('home');
+Route::get('/inicio', 'HomeController@inicio')->name('inicio');
 Route::post('/formulario-contacto-propiedades', 'InicioController@contactoController')->name('formulario-contacto');
 Route::get('/leads', 'HomeController@leads')->name('leads');
-Route::prefix('users')->group(function () {
+Route::middleware('role')->prefix('users')->group(function () {
     Route::get('/', 'UserController@index')->name('users');
     Route::get('/create', 'UserController@create');
     Route::post('/store', 'UserController@store');
@@ -32,7 +33,7 @@ Route::prefix('users')->group(function () {
     Route::post('/update/{user}', 'UserController@update');
     Route::post('/destroy', 'UserController@destroy');
 });
-Route::prefix('ejercicios')->group(function () {
+Route::middleware('role')->prefix('ejercicios')->group(function () {
     Route::get('/', 'EjercicioController@index')->name('ejercicios');
     Route::get('/create', 'EjercicioController@create');
     Route::post('/store', 'EjercicioController@store');
@@ -40,7 +41,7 @@ Route::prefix('ejercicios')->group(function () {
     Route::post('/update/{user}', 'EjercicioController@update');
     Route::post('/destroy', 'EjercicioController@destroy');
 });
-Route::prefix('rutinas')->group(function () {
+Route::middleware('role')->prefix('rutinas')->group(function () {
     Route::get('/', 'RutinaController@index')->name('rutinas');
     Route::get('/create', 'RutinaController@create');
     Route::post('/store', 'RutinaController@store');
